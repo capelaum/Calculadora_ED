@@ -1,0 +1,398 @@
+\hypertarget{_res__exp_8h}{}\section{Res\+\_\+exp.\+h File Reference}
+\label{_res__exp_8h}\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+Include dependency graph for Res\+\_\+exp.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structno__c}{no\+\_\+c}}
+\item 
+struct \mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structno__c}{no\+\_\+c}} \mbox{\hyperlink{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}{t\+\_\+no\+\_\+c}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$ \mbox{\hyperlink{_res__exp_8h_ae39ed0ad591d07a0c9fde8b10b285b43}{aloca\+\_\+pilha\+\_\+c}} ()
+\item 
+\mbox{\hyperlink{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}{t\+\_\+no\+\_\+c}} $\ast$ \mbox{\hyperlink{_res__exp_8h_ae39c6a9b3cac787d0587ac6168ede0f4}{aloca\+\_\+no\+\_\+c}} (char dado)
+\item 
+int \mbox{\hyperlink{_res__exp_8h_a28d30a9fcbf08a1f95ac47993a89acfc}{esta\+\_\+vazia\+\_\+c}} (\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$pilha\+\_\+c)
+\item 
+void \mbox{\hyperlink{_res__exp_8h_aeb21de9a00099b2715658d50ec54c6e5}{apaga\+\_\+pilha\+\_\+c}} (\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$pilha\+\_\+c)
+\item 
+int \mbox{\hyperlink{_res__exp_8h_a6b3dbcbb549fcd84a7e5aa1207dbc63c}{empilha\+\_\+c}} (char dado, \mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$pilha\+\_\+c)
+\item 
+char \mbox{\hyperlink{_res__exp_8h_a53f4387852673f6e27870e3f05408aeb}{desempilha\+\_\+c}} (\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$pilha\+\_\+c)
+\item 
+bool \mbox{\hyperlink{_res__exp_8h_abb9125d19fbf087fdf98a1d97c91d539}{valida\+\_\+str\+\_\+1}} (char c)
+\item 
+bool \mbox{\hyperlink{_res__exp_8h_ab8e6f6e06eb2f4abbaf7621baf85cd60}{tem\+\_\+numero}} (char c)
+\item 
+bool \mbox{\hyperlink{_res__exp_8h_a92c3c878a67583c49cb915e71346e832}{tem\+\_\+escopo}} (char c)
+\item 
+bool \mbox{\hyperlink{_res__exp_8h_a98aea14122474183a166bbd5ed65bca2}{tem\+\_\+op}} (char c)
+\item 
+int \mbox{\hyperlink{_res__exp_8h_a2c910b138da6936a83cb57fba3e3bdce}{check\+\_\+exp}} (char $\ast$str)
+\item 
+int \mbox{\hyperlink{_res__exp_8h_a0450cb0189bf507d2a9f8f057612d795}{valida\+\_\+escopo}} (char $\ast$str, \mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$pilha\+\_\+c)
+\item 
+int \mbox{\hyperlink{_res__exp_8h_ad0acd78bee8a5b768d35240be8cfb722}{precedencia}} (char c)
+\item 
+void \mbox{\hyperlink{_res__exp_8h_af2b0252508c5721283cdbdec77164236}{transforma}} (char $\ast$exp\+\_\+infixa, char $\ast$exp\+\_\+posfixa)
+\item 
+float \mbox{\hyperlink{_res__exp_8h_adb2dfa0d22377e798817bd431985a9e3}{resolve\+\_\+posfixa}} (char $\ast$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}\label{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!t\+\_\+no\+\_\+c@{t\+\_\+no\+\_\+c}}
+\index{t\+\_\+no\+\_\+c@{t\+\_\+no\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{t\+\_\+no\+\_\+c}{t\_no\_c}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structno__c}{no\+\_\+c}} \mbox{\hyperlink{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}{t\+\_\+no\+\_\+c}}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_res__exp_8h_ae39c6a9b3cac787d0587ac6168ede0f4}\label{_res__exp_8h_ae39c6a9b3cac787d0587ac6168ede0f4}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!aloca\+\_\+no\+\_\+c@{aloca\+\_\+no\+\_\+c}}
+\index{aloca\+\_\+no\+\_\+c@{aloca\+\_\+no\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{aloca\+\_\+no\+\_\+c()}{aloca\_no\_c()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_res__exp_8h_a49875fde21799e17a8437b9caf0ec7d0}{t\+\_\+no\+\_\+c}}$\ast$ aloca\+\_\+no\+\_\+c (\begin{DoxyParamCaption}\item[{char}]{dado }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h_ae39c6a9b3cac787d0587ac6168ede0f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_ae39ed0ad591d07a0c9fde8b10b285b43}\label{_res__exp_8h_ae39ed0ad591d07a0c9fde8b10b285b43}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!aloca\+\_\+pilha\+\_\+c@{aloca\+\_\+pilha\+\_\+c}}
+\index{aloca\+\_\+pilha\+\_\+c@{aloca\+\_\+pilha\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{aloca\+\_\+pilha\+\_\+c()}{aloca\_pilha\_c()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}}$\ast$ aloca\+\_\+pilha\+\_\+c (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{_res__exp_8h_ae39ed0ad591d07a0c9fde8b10b285b43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_aeb21de9a00099b2715658d50ec54c6e5}\label{_res__exp_8h_aeb21de9a00099b2715658d50ec54c6e5}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!apaga\+\_\+pilha\+\_\+c@{apaga\+\_\+pilha\+\_\+c}}
+\index{apaga\+\_\+pilha\+\_\+c@{apaga\+\_\+pilha\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{apaga\+\_\+pilha\+\_\+c()}{apaga\_pilha\_c()}}
+{\footnotesize\ttfamily void apaga\+\_\+pilha\+\_\+c (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$}]{pilha\+\_\+c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 107 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{_res__exp_8h_aeb21de9a00099b2715658d50ec54c6e5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a2c910b138da6936a83cb57fba3e3bdce}\label{_res__exp_8h_a2c910b138da6936a83cb57fba3e3bdce}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!check\+\_\+exp@{check\+\_\+exp}}
+\index{check\+\_\+exp@{check\+\_\+exp}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{check\+\_\+exp()}{check\_exp()}}
+{\footnotesize\ttfamily int check\+\_\+exp (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 77 of file Valida\+\_\+exp\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{_res__exp_8h_a2c910b138da6936a83cb57fba3e3bdce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{_res__exp_8h_a2c910b138da6936a83cb57fba3e3bdce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a53f4387852673f6e27870e3f05408aeb}\label{_res__exp_8h_a53f4387852673f6e27870e3f05408aeb}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!desempilha\+\_\+c@{desempilha\+\_\+c}}
+\index{desempilha\+\_\+c@{desempilha\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{desempilha\+\_\+c()}{desempilha\_c()}}
+{\footnotesize\ttfamily char desempilha\+\_\+c (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$}]{pilha\+\_\+c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 62 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{_res__exp_8h_a53f4387852673f6e27870e3f05408aeb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{_res__exp_8h_a53f4387852673f6e27870e3f05408aeb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a6b3dbcbb549fcd84a7e5aa1207dbc63c}\label{_res__exp_8h_a6b3dbcbb549fcd84a7e5aa1207dbc63c}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!empilha\+\_\+c@{empilha\+\_\+c}}
+\index{empilha\+\_\+c@{empilha\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{empilha\+\_\+c()}{empilha\_c()}}
+{\footnotesize\ttfamily int empilha\+\_\+c (\begin{DoxyParamCaption}\item[{char}]{dado,  }\item[{\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$}]{pilha\+\_\+c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 37 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{_res__exp_8h_a6b3dbcbb549fcd84a7e5aa1207dbc63c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{_res__exp_8h_a6b3dbcbb549fcd84a7e5aa1207dbc63c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a28d30a9fcbf08a1f95ac47993a89acfc}\label{_res__exp_8h_a28d30a9fcbf08a1f95ac47993a89acfc}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!esta\+\_\+vazia\+\_\+c@{esta\+\_\+vazia\+\_\+c}}
+\index{esta\+\_\+vazia\+\_\+c@{esta\+\_\+vazia\+\_\+c}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{esta\+\_\+vazia\+\_\+c()}{esta\_vazia\_c()}}
+{\footnotesize\ttfamily int esta\+\_\+vazia\+\_\+c (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$}]{pilha\+\_\+c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 102 of file Pilha\+\_\+c\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h_a28d30a9fcbf08a1f95ac47993a89acfc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_ad0acd78bee8a5b768d35240be8cfb722}\label{_res__exp_8h_ad0acd78bee8a5b768d35240be8cfb722}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!precedencia@{precedencia}}
+\index{precedencia@{precedencia}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{precedencia()}{precedencia()}}
+{\footnotesize\ttfamily int precedencia (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 5 of file Algoritmo\+\_\+2.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{_res__exp_8h_ad0acd78bee8a5b768d35240be8cfb722_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_adb2dfa0d22377e798817bd431985a9e3}\label{_res__exp_8h_adb2dfa0d22377e798817bd431985a9e3}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!resolve\+\_\+posfixa@{resolve\+\_\+posfixa}}
+\index{resolve\+\_\+posfixa@{resolve\+\_\+posfixa}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{resolve\+\_\+posfixa()}{resolve\_posfixa()}}
+{\footnotesize\ttfamily float resolve\+\_\+posfixa (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Algoritmo\+\_\+3.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h_adb2dfa0d22377e798817bd431985a9e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{_res__exp_8h_adb2dfa0d22377e798817bd431985a9e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a92c3c878a67583c49cb915e71346e832}\label{_res__exp_8h_a92c3c878a67583c49cb915e71346e832}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!tem\+\_\+escopo@{tem\+\_\+escopo}}
+\index{tem\+\_\+escopo@{tem\+\_\+escopo}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{tem\+\_\+escopo()}{tem\_escopo()}}
+{\footnotesize\ttfamily bool tem\+\_\+escopo (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file Valida\+\_\+exp\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{_res__exp_8h_a92c3c878a67583c49cb915e71346e832_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_ab8e6f6e06eb2f4abbaf7621baf85cd60}\label{_res__exp_8h_ab8e6f6e06eb2f4abbaf7621baf85cd60}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!tem\+\_\+numero@{tem\+\_\+numero}}
+\index{tem\+\_\+numero@{tem\+\_\+numero}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{tem\+\_\+numero()}{tem\_numero()}}
+{\footnotesize\ttfamily bool tem\+\_\+numero (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 35 of file Valida\+\_\+exp\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{_res__exp_8h_ab8e6f6e06eb2f4abbaf7621baf85cd60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a98aea14122474183a166bbd5ed65bca2}\label{_res__exp_8h_a98aea14122474183a166bbd5ed65bca2}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!tem\+\_\+op@{tem\+\_\+op}}
+\index{tem\+\_\+op@{tem\+\_\+op}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{tem\+\_\+op()}{tem\_op()}}
+{\footnotesize\ttfamily bool tem\+\_\+op (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 66 of file Valida\+\_\+exp\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{_res__exp_8h_a98aea14122474183a166bbd5ed65bca2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_af2b0252508c5721283cdbdec77164236}\label{_res__exp_8h_af2b0252508c5721283cdbdec77164236}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!transforma@{transforma}}
+\index{transforma@{transforma}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{transforma()}{transforma()}}
+{\footnotesize\ttfamily void transforma (\begin{DoxyParamCaption}\item[{char $\ast$}]{exp\+\_\+infixa,  }\item[{char $\ast$}]{exp\+\_\+posfixa }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file Algoritmo\+\_\+2.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h_af2b0252508c5721283cdbdec77164236_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{_res__exp_8h_af2b0252508c5721283cdbdec77164236_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_a0450cb0189bf507d2a9f8f057612d795}\label{_res__exp_8h_a0450cb0189bf507d2a9f8f057612d795}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!valida\+\_\+escopo@{valida\+\_\+escopo}}
+\index{valida\+\_\+escopo@{valida\+\_\+escopo}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{valida\+\_\+escopo()}{valida\_escopo()}}
+{\footnotesize\ttfamily int valida\+\_\+escopo (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{\mbox{\hyperlink{structt__pilha__c}{t\+\_\+pilha\+\_\+c}} $\ast$}]{pilha\+\_\+c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file Algoritmo\+\_\+1.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_res__exp_8h_a0450cb0189bf507d2a9f8f057612d795_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{_res__exp_8h_a0450cb0189bf507d2a9f8f057612d795_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_res__exp_8h_abb9125d19fbf087fdf98a1d97c91d539}\label{_res__exp_8h_abb9125d19fbf087fdf98a1d97c91d539}} 
+\index{Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}!valida\+\_\+str\+\_\+1@{valida\+\_\+str\+\_\+1}}
+\index{valida\+\_\+str\+\_\+1@{valida\+\_\+str\+\_\+1}!Res\+\_\+exp.\+h@{Res\+\_\+exp.\+h}}
+\subsubsection{\texorpdfstring{valida\+\_\+str\+\_\+1()}{valida\_str\_1()}}
+{\footnotesize\ttfamily bool valida\+\_\+str\+\_\+1 (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file Valida\+\_\+exp\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{_res__exp_8h_abb9125d19fbf087fdf98a1d97c91d539_icgraph}
+\end{center}
+\end{figure}

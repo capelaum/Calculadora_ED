@@ -1,0 +1,7 @@
+<map id="valida_escopo" name="valida_escopo">
+<area shape="rect" id="node2" href="$_res__exp_8h.html#a92c3c878a67583c49cb915e71346e832" title="tem_escopo" alt="" coords="161,5,254,32"/>
+<area shape="rect" id="node3" href="$_pilha__c__func_8c.html#a28d30a9fcbf08a1f95ac47993a89acfc" title="esta_vazia_c" alt="" coords="307,107,404,133"/>
+<area shape="rect" id="node4" href="$_pilha__c__func_8c.html#a53f4387852673f6e27870e3f05408aeb" title="desempilha_c" alt="" coords="156,107,259,133"/>
+<area shape="rect" id="node5" href="$_pilha__c__func_8c.html#a6b3dbcbb549fcd84a7e5aa1207dbc63c" title="empilha_c" alt="" coords="167,157,248,184"/>
+<area shape="rect" id="node6" href="$_pilha__c__func_8c.html#ae39c6a9b3cac787d0587ac6168ede0f4" title="aloca_no_c" alt="" coords="311,157,399,184"/>
+</map>

@@ -1,0 +1,446 @@
+\hypertarget{_calculadora_8h}{}\section{Calculadora.\+h File Reference}
+\label{_calculadora_8h}\index{Calculadora.\+h@{Calculadora.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+Include dependency graph for Calculadora.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structno}{no}}
+\item 
+struct \mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structno}{no}} \mbox{\hyperlink{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}{t\+\_\+no}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$ \mbox{\hyperlink{_calculadora_8h_a882b64f15d2cb66bbaeb41a341e71dce}{aloca\+\_\+pilha}} ()
+\item 
+\mbox{\hyperlink{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}{t\+\_\+no}} $\ast$ \mbox{\hyperlink{_calculadora_8h_ade7db9766f53662f025a944b636f4db2}{aloca\+\_\+no}} (float dado)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_a5705252b26adc92c6a848252ca1790c1}{empilha}} (float dado, \mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+void \mbox{\hyperlink{_calculadora_8h_a7754e1e0150be8a3a784d637ed83a699}{imprime\+\_\+pilha}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_adfd347e2b3f0462a4a1bd85e7d033e68}{esta\+\_\+vazia}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+void \mbox{\hyperlink{_calculadora_8h_a5c485ba4895206b77485169e4d240157}{apaga\+\_\+pilha}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_a91d1e173ad5aaecf8348f4429f54c210}{verifica\+\_\+pilha}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+float \mbox{\hyperlink{_calculadora_8h_a0ce03f1f3ee5207eb5390b0658d1ca69}{desempilha\+\_\+e\+\_\+calcula\+\_\+1}} (char op, \mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+float \mbox{\hyperlink{_calculadora_8h_a23bb611728759ee2acc8523f39b3b34c}{desempilha\+\_\+e\+\_\+calcula\+\_\+2}} (char op, \mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_a9a11eff29728678483ea05fa1983018c}{remove\+\_\+ultimo}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+bool \mbox{\hyperlink{_calculadora_8h_ac9a342197c376e2cd018f95b1394618c}{valida\+\_\+str}} (char c)
+\item 
+bool \mbox{\hyperlink{_calculadora_8h_a938fdba0cc830b48c5d0a85ad31c4bed}{tem\+\_\+char}} (char c)
+\item 
+bool \mbox{\hyperlink{_calculadora_8h_a6bdb02d6cf0aabad0986f4ed8f5a7056}{tem\+\_\+operador}} (char c)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_a57b564d2fcef3dd2d88aa2fe653a7771}{check}} (char $\ast$str)
+\item 
+int \mbox{\hyperlink{_calculadora_8h_a924e3344e312510ba6b0b0a1f63613d9}{copia\+\_\+elemento}} (\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$pilha)
+\item 
+void \mbox{\hyperlink{_calculadora_8h_a7b541b1f54cc537f7b83b83b3b746a11}{limpabuffer}} ()
+\item 
+float \mbox{\hyperlink{_calculadora_8h_aa670fb2fd144dab8265822c4e5f5f09c}{str\+\_\+em\+\_\+float}} (char $\ast$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}\label{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!t\+\_\+no@{t\+\_\+no}}
+\index{t\+\_\+no@{t\+\_\+no}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{t\+\_\+no}{t\_no}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structno}{no}} \mbox{\hyperlink{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}{t\+\_\+no}}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_calculadora_8h_ade7db9766f53662f025a944b636f4db2}\label{_calculadora_8h_ade7db9766f53662f025a944b636f4db2}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!aloca\+\_\+no@{aloca\+\_\+no}}
+\index{aloca\+\_\+no@{aloca\+\_\+no}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{aloca\+\_\+no()}{aloca\_no()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_calculadora_8h_a312f04dbe081fc59526dcf1463e3380a}{t\+\_\+no}}$\ast$ aloca\+\_\+no (\begin{DoxyParamCaption}\item[{float}]{dado }\end{DoxyParamCaption})}
+
+
+
+Definition at line 19 of file Pilha\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_ade7db9766f53662f025a944b636f4db2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a882b64f15d2cb66bbaeb41a341e71dce}\label{_calculadora_8h_a882b64f15d2cb66bbaeb41a341e71dce}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!aloca\+\_\+pilha@{aloca\+\_\+pilha}}
+\index{aloca\+\_\+pilha@{aloca\+\_\+pilha}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{aloca\+\_\+pilha()}{aloca\_pilha()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}}$\ast$ aloca\+\_\+pilha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file Pilha\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{_calculadora_8h_a882b64f15d2cb66bbaeb41a341e71dce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a5c485ba4895206b77485169e4d240157}\label{_calculadora_8h_a5c485ba4895206b77485169e4d240157}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!apaga\+\_\+pilha@{apaga\+\_\+pilha}}
+\index{apaga\+\_\+pilha@{apaga\+\_\+pilha}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{apaga\+\_\+pilha()}{apaga\_pilha()}}
+{\footnotesize\ttfamily void apaga\+\_\+pilha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 81 of file Pilha\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{_calculadora_8h_a5c485ba4895206b77485169e4d240157_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a57b564d2fcef3dd2d88aa2fe653a7771}\label{_calculadora_8h_a57b564d2fcef3dd2d88aa2fe653a7771}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!check@{check}}
+\index{check@{check}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily int check (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file Valida\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{_calculadora_8h_a57b564d2fcef3dd2d88aa2fe653a7771_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{_calculadora_8h_a57b564d2fcef3dd2d88aa2fe653a7771_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a924e3344e312510ba6b0b0a1f63613d9}\label{_calculadora_8h_a924e3344e312510ba6b0b0a1f63613d9}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!copia\+\_\+elemento@{copia\+\_\+elemento}}
+\index{copia\+\_\+elemento@{copia\+\_\+elemento}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{copia\+\_\+elemento()}{copia\_elemento()}}
+{\footnotesize\ttfamily int copia\+\_\+elemento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file Suporte\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_a924e3344e312510ba6b0b0a1f63613d9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{_calculadora_8h_a924e3344e312510ba6b0b0a1f63613d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a0ce03f1f3ee5207eb5390b0658d1ca69}\label{_calculadora_8h_a0ce03f1f3ee5207eb5390b0658d1ca69}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!desempilha\+\_\+e\+\_\+calcula\+\_\+1@{desempilha\+\_\+e\+\_\+calcula\+\_\+1}}
+\index{desempilha\+\_\+e\+\_\+calcula\+\_\+1@{desempilha\+\_\+e\+\_\+calcula\+\_\+1}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{desempilha\+\_\+e\+\_\+calcula\+\_\+1()}{desempilha\_e\_calcula\_1()}}
+{\footnotesize\ttfamily float desempilha\+\_\+e\+\_\+calcula\+\_\+1 (\begin{DoxyParamCaption}\item[{char}]{op,  }\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 107 of file Pilha\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_a0ce03f1f3ee5207eb5390b0658d1ca69_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_a0ce03f1f3ee5207eb5390b0658d1ca69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a23bb611728759ee2acc8523f39b3b34c}\label{_calculadora_8h_a23bb611728759ee2acc8523f39b3b34c}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!desempilha\+\_\+e\+\_\+calcula\+\_\+2@{desempilha\+\_\+e\+\_\+calcula\+\_\+2}}
+\index{desempilha\+\_\+e\+\_\+calcula\+\_\+2@{desempilha\+\_\+e\+\_\+calcula\+\_\+2}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{desempilha\+\_\+e\+\_\+calcula\+\_\+2()}{desempilha\_e\_calcula\_2()}}
+{\footnotesize\ttfamily float desempilha\+\_\+e\+\_\+calcula\+\_\+2 (\begin{DoxyParamCaption}\item[{char}]{op,  }\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 164 of file Pilha\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_a23bb611728759ee2acc8523f39b3b34c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{_calculadora_8h_a23bb611728759ee2acc8523f39b3b34c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a5705252b26adc92c6a848252ca1790c1}\label{_calculadora_8h_a5705252b26adc92c6a848252ca1790c1}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!empilha@{empilha}}
+\index{empilha@{empilha}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{empilha()}{empilha()}}
+{\footnotesize\ttfamily int empilha (\begin{DoxyParamCaption}\item[{float}]{dado,  }\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file Pilha\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{_calculadora_8h_a5705252b26adc92c6a848252ca1790c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{_calculadora_8h_a5705252b26adc92c6a848252ca1790c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_adfd347e2b3f0462a4a1bd85e7d033e68}\label{_calculadora_8h_adfd347e2b3f0462a4a1bd85e7d033e68}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!esta\+\_\+vazia@{esta\+\_\+vazia}}
+\index{esta\+\_\+vazia@{esta\+\_\+vazia}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{esta\+\_\+vazia()}{esta\_vazia()}}
+{\footnotesize\ttfamily int esta\+\_\+vazia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 76 of file Pilha\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_adfd347e2b3f0462a4a1bd85e7d033e68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a7754e1e0150be8a3a784d637ed83a699}\label{_calculadora_8h_a7754e1e0150be8a3a784d637ed83a699}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!imprime\+\_\+pilha@{imprime\+\_\+pilha}}
+\index{imprime\+\_\+pilha@{imprime\+\_\+pilha}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{imprime\+\_\+pilha()}{imprime\_pilha()}}
+{\footnotesize\ttfamily void imprime\+\_\+pilha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 60 of file Pilha\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{_calculadora_8h_a7754e1e0150be8a3a784d637ed83a699_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{_calculadora_8h_a7754e1e0150be8a3a784d637ed83a699_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a7b541b1f54cc537f7b83b83b3b746a11}\label{_calculadora_8h_a7b541b1f54cc537f7b83b83b3b746a11}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!limpabuffer@{limpabuffer}}
+\index{limpabuffer@{limpabuffer}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{limpabuffer()}{limpabuffer()}}
+{\footnotesize\ttfamily void limpabuffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 33 of file Suporte\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{_calculadora_8h_a7b541b1f54cc537f7b83b83b3b746a11_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a9a11eff29728678483ea05fa1983018c}\label{_calculadora_8h_a9a11eff29728678483ea05fa1983018c}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!remove\+\_\+ultimo@{remove\+\_\+ultimo}}
+\index{remove\+\_\+ultimo@{remove\+\_\+ultimo}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{remove\+\_\+ultimo()}{remove\_ultimo()}}
+{\footnotesize\ttfamily int remove\+\_\+ultimo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 221 of file Pilha\+\_\+func.\+c.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{_calculadora_8h_a9a11eff29728678483ea05fa1983018c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_calculadora_8h_a9a11eff29728678483ea05fa1983018c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_aa670fb2fd144dab8265822c4e5f5f09c}\label{_calculadora_8h_aa670fb2fd144dab8265822c4e5f5f09c}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!str\+\_\+em\+\_\+float@{str\+\_\+em\+\_\+float}}
+\index{str\+\_\+em\+\_\+float@{str\+\_\+em\+\_\+float}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{str\+\_\+em\+\_\+float()}{str\_em\_float()}}
+{\footnotesize\ttfamily float str\+\_\+em\+\_\+float (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file Suporte\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{_calculadora_8h_aa670fb2fd144dab8265822c4e5f5f09c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a938fdba0cc830b48c5d0a85ad31c4bed}\label{_calculadora_8h_a938fdba0cc830b48c5d0a85ad31c4bed}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!tem\+\_\+char@{tem\+\_\+char}}
+\index{tem\+\_\+char@{tem\+\_\+char}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{tem\+\_\+char()}{tem\_char()}}
+{\footnotesize\ttfamily bool tem\+\_\+char (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 32 of file Valida\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{_calculadora_8h_a938fdba0cc830b48c5d0a85ad31c4bed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a6bdb02d6cf0aabad0986f4ed8f5a7056}\label{_calculadora_8h_a6bdb02d6cf0aabad0986f4ed8f5a7056}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!tem\+\_\+operador@{tem\+\_\+operador}}
+\index{tem\+\_\+operador@{tem\+\_\+operador}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{tem\+\_\+operador()}{tem\_operador()}}
+{\footnotesize\ttfamily bool tem\+\_\+operador (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 46 of file Valida\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{_calculadora_8h_a6bdb02d6cf0aabad0986f4ed8f5a7056_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_ac9a342197c376e2cd018f95b1394618c}\label{_calculadora_8h_ac9a342197c376e2cd018f95b1394618c}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!valida\+\_\+str@{valida\+\_\+str}}
+\index{valida\+\_\+str@{valida\+\_\+str}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{valida\+\_\+str()}{valida\_str()}}
+{\footnotesize\ttfamily bool valida\+\_\+str (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file Valida\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{_calculadora_8h_ac9a342197c376e2cd018f95b1394618c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_calculadora_8h_a91d1e173ad5aaecf8348f4429f54c210}\label{_calculadora_8h_a91d1e173ad5aaecf8348f4429f54c210}} 
+\index{Calculadora.\+h@{Calculadora.\+h}!verifica\+\_\+pilha@{verifica\+\_\+pilha}}
+\index{verifica\+\_\+pilha@{verifica\+\_\+pilha}!Calculadora.\+h@{Calculadora.\+h}}
+\subsubsection{\texorpdfstring{verifica\+\_\+pilha()}{verifica\_pilha()}}
+{\footnotesize\ttfamily int verifica\+\_\+pilha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structt__pilha}{t\+\_\+pilha}} $\ast$}]{pilha }\end{DoxyParamCaption})}
+
+
+
+Definition at line 97 of file Pilha\+\_\+func.\+c.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{_calculadora_8h_a91d1e173ad5aaecf8348f4429f54c210_icgraph}
+\end{center}
+\end{figure}

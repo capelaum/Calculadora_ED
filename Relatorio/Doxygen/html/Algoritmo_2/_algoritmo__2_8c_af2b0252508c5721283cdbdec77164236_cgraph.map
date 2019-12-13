@@ -1,0 +1,11 @@
+<map id="transforma" name="transforma">
+<area shape="rect" id="node2" href="$_pilha__c__func_8c.html#ae39ed0ad591d07a0c9fde8b10b285b43" title="aloca_pilha_c" alt="" coords="138,5,239,32"/>
+<area shape="rect" id="node3" href="$_pilha__c__func_8c.html#a6b3dbcbb549fcd84a7e5aa1207dbc63c" title="empilha_c" alt="" coords="148,56,229,83"/>
+<area shape="rect" id="node5" href="$_pilha__c__func_8c.html#a28d30a9fcbf08a1f95ac47993a89acfc" title="esta_vazia_c" alt="" coords="289,107,387,133"/>
+<area shape="rect" id="node6" href="$_res__exp_8h.html#ab8e6f6e06eb2f4abbaf7621baf85cd60" title="tem_numero" alt="" coords="141,157,236,184"/>
+<area shape="rect" id="node7" href="$_res__exp_8h.html#a98aea14122474183a166bbd5ed65bca2" title="tem_op" alt="" coords="156,208,221,235"/>
+<area shape="rect" id="node8" href="$_pilha__c__func_8c.html#a53f4387852673f6e27870e3f05408aeb" title="desempilha_c" alt="" coords="137,259,240,285"/>
+<area shape="rect" id="node9" href="$_algoritmo__2_8c.html#ad0acd78bee8a5b768d35240be8cfb722" title="precedencia" alt="" coords="143,309,235,336"/>
+<area shape="rect" id="node10" href="$_pilha__c__func_8c.html#aeb21de9a00099b2715658d50ec54c6e5" title="apaga_pilha_c" alt="" coords="136,360,241,387"/>
+<area shape="rect" id="node4" href="$_pilha__c__func_8c.html#ae39c6a9b3cac787d0587ac6168ede0f4" title="aloca_no_c" alt="" coords="294,56,382,83"/>
+</map>

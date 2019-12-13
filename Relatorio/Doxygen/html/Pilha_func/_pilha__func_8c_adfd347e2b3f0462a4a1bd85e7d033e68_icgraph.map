@@ -1,0 +1,10 @@
+<map id="esta_vazia" name="esta_vazia">
+<area shape="rect" id="node2" href="$_menu_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="663,116,713,142"/>
+<area shape="rect" id="node3" href="$_pilha__func_8c.html#a5705252b26adc92c6a848252ca1790c1" title="empilha" alt="" coords="338,40,405,66"/>
+<area shape="rect" id="node6" href="$_pilha__func_8c.html#a7754e1e0150be8a3a784d637ed83a699" title="imprime_pilha" alt="" coords="137,192,240,218"/>
+<area shape="rect" id="node7" href="$_pilha__func_8c.html#a0ce03f1f3ee5207eb5390b0658d1ca69" title="desempilha_e_calcula_1" alt="" coords="289,90,453,117"/>
+<area shape="rect" id="node8" href="$_pilha__func_8c.html#a23bb611728759ee2acc8523f39b3b34c" title="desempilha_e_calcula_2" alt="" coords="289,242,453,269"/>
+<area shape="rect" id="node9" href="$_pilha__func_8c.html#a9a11eff29728678483ea05fa1983018c" title="remove_ultimo" alt="" coords="136,141,241,168"/>
+<area shape="rect" id="node4" href="$_res__exp_8h.html#adb2dfa0d22377e798817bd431985a9e3" title="resolve_posfixa" alt="" coords="503,90,613,117"/>
+<area shape="rect" id="node5" href="$_suporte__func_8c.html#a924e3344e312510ba6b0b0a1f63613d9" title="copia_elemento" alt="" coords="501,141,615,168"/>
+</map>
