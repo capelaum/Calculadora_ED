@@ -1,0 +1,80 @@
+
+|------------------------------------------------------|
+|-------------------(***LEIA-ME***)--------------------|
+|------------------------------------------------------|
+
+->Os códigos-fonte encontram-se na pasta "Codigos": 
+
+Arquivos.h:	- Calculadora.h
+		- Res_exp.h
+
+Arquivos.c:	- Menu.c 
+
+		- Pilha_c_func.c
+		- Valida_exp_func.c
+		- Aloritmo_1.c 
+		- Aloritmo_2.c
+		- Aloritmo_3.c
+		
+		- Pilha_func.c
+		- Suporte_func.c
+		- Valida_func.c
+		
+		- makefile
+
+>Arquivo principal (main): Menu.c
+-------------------------------------------------------
+->Instruções de Compilação: 
+
+Abra o terminal e vá até o diretório onde se encontram os códigos-fonte e seu respectivo makefile contidos na pasta Codigos.
+Assim que estiver no diretório designado, execute o comando make: 
+
+->Compilação: $ make 
+
+Após comando 'make',todos arquivos.c e arquivos.h estarão compilados,
+juntamente com seus arquivos-objeto (.o), assim como foi gerado o executável 'trab1.exe'
+
+->Execução: $ ./trab1
+
+Programa então é executado.
+---------------------------------------------------------------
+-> Pasta Relatorio:
+
+Contém o arquivo no formato PDF (Relatório.pdf) contendo o relatório do projeto 
+desenvolvido na linguagem padrão C (C99), assim como as pastas do doxygen 
+de todo código produzido assim como seu Smoke test.
+
+->No arquivo "Relatório.pdf" encontram-se:
+
+.A descrição da Notação Polonesa Reversa (posfixa) utilizada no programa;
+.A arquitetura do sistema desenvolvido;
+.Screenshots e explicação das funcionalidades desenvolvidas;
+
+->Pasta Doxygen: 
+
+.Contem arquivos latex e html contendo doxygen de todo código produzido;
+.Arquivo Doxyfile de configuração 
+
+*Para acessar página html produzida pelo Doxygen, 
+basta abrir o arquivo index.html dentro da pasta html;
+
+->Pasta Smoke Test:
+
+.Contem arquivo pdf com descrição dos testes a serem realizados;
+.Arquivos pdf com suas planilhas
+---------------------------------------------------------------
+->Info:
+
+Para o desenvolvimento do projeto, foram utilizados:
+
+Versão do compilador: TDM-GCC 4.9.2 64bit debug
+IDE: Dev C++ 5.11
+SO utilizado: Microsoft Windows version 1709
+Versão utilizada -> lingaguem C padrão ISO/IEC9899 (C99)
+
+Bibliotecas padrão utilizadas (5): <stdlib.h>,
+<stdio.h>, <string.h>, <stdbool.h>, <ctype.h>.
+
+END.
+
+
