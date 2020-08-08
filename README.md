@@ -9,7 +9,7 @@
 <h3/>
 
 Resolve expressões aritméticas validando a expressão passada de forma padrão infixa e através da transformação para a Notação Polonesa Reversa (NPR),
-consegue realizar os cáculos.
+consegue realizar os cálculos.
 <br>
 
 ## Introdução
@@ -85,3 +85,15 @@ de erro deve ser impressa;
 <p/>
 
 #### Para Saber mais consulte o documento em pdf - [Trabalho1_ED.pdf](https://github.com/capelaum/Calculadora_ED/blob/master/Trabalho1_ED.pdf)
+
+### Executando
+
+Abra a pasta **códigos** no terminal, digite o comando *make* e depois execute o programa **trab1.exe**
+
+```
+// Compila
+make
+
+// executa
+./trab1
+```
