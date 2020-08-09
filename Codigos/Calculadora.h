@@ -43,8 +43,8 @@ void     apaga_pilha     (t_pilha* pilha);
 
 int    verifica_pilha           (t_pilha* pilha);
 
-float  desempilha_e_calcula_1   (char op,t_pilha* pilha);
-float  desempilha_e_calcula_2   (char op,t_pilha* pilha); // utilizado no Algoritmo_3.c
+float  desempilha_e_calcula_1   (char op, t_pilha* pilha);
+float  desempilha_e_calcula_2   (char op, t_pilha* pilha); // utilizado no Algoritmo_3.c
 
 int    remove_ultimo            (t_pilha* pilha);
 
